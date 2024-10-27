@@ -1,0 +1,8 @@
+To branch to an address and save the return address in the link register (LR)
+LR (Link Register)
+To return from a function by branching to the address stored in the link register (LR)
+The PC is set to the target address specified in the BL instruction
+BL saves the return address in LR and branches, while BX uses the value in LR to return
+15
+LR = 0x00000008, PC = address of the first instruction in function
+Understanding the desired outcomes of the assignment.

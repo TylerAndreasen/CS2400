@@ -1,0 +1,10 @@
+To keep track of the order in which functions are called and return addresses.
+It saves the value of the lr register on the stack.
+Last In First Out; it means the last value pushed onto the stack is the first one popped off.
+BX lr
+The stack pointer (sp) will point to the wrong memory location, possibly causing errors. XX
+It saves the return address of the calling function.
+To prevent the function from overriding the values in the registers used by the calling function.
+PUSH {r0, lr}; BL function; POP {r0, lr}; BX lr
+PUSH {r0, lr}; BL function; POP {r0, lr}
+The program will execute the wrong instruction after returning from the nested function.

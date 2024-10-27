@@ -1,0 +1,28 @@
+
+r3
+
+True
+
+26
+
+255
+
+65
+
+102
+
+40
+
+-15, 5
+
+100
+
+Address of x
+
+10
+
+True
+
+Value of r2 store in r3
+
+SUBS
